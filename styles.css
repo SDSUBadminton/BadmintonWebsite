@@ -1,0 +1,31 @@
+/*UNIVERSAL*/
+
+/* INDEX */
+
+body.index {
+    background-image: url('Images/indexBGImage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+
+
+footer{
+    background-color: gray;
+}
+
+footer span{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+/*ABOUT*/
+
+/*TEAM*/
+
+/*CALENDER*/
+
+/*SOCIALS*/
