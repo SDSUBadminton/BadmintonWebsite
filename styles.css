@@ -1,25 +1,53 @@
 /*UNIVERSAL*/
+    /*nav*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090302;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+ul.nav {
+    top: 0;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+ul li a.active{
+    background-color: #42616d;
+}
+
+    /*footer CSS*/
+ul.masterLinks{
+    bottom: 0;
+}
 
 /* INDEX */
 
 body.index {
-    background-image: url('Images/indexBGImage.png');
+    background-image: url('Images/sdsu home.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-
-}
-
-
-
-footer{
-    background-color: gray;
-}
-
-footer span{
-    display: grid;
-    place-items: center;
-    margin: auto;
+    background-position: center;
+    background-size: cover;
 }
 
 /*ABOUT*/
