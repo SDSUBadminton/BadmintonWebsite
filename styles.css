@@ -1,5 +1,9 @@
 /*UNIVERSAL*/
-    /*nav*/
+body{
+    margin: 510px 0 0 0;
+    padding: 0;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -7,14 +11,12 @@ ul{
     overflow: hidden;
     background-color: #090302;
     display: flex;
+    position: sticky;
     justify-content: center;
-    position: fixed;
     width: 100%;
 }
 
-ul.nav {
-    top: 0;
-}
+
 
 ul li {
     float: left;
@@ -36,6 +38,11 @@ ul li a.active{
     background-color: #42616d;
 }
 
+    /*nav*/
+ul.nav {
+    top: 0;
+}
+
     /*footer CSS*/
 ul.masterLinks{
     bottom: 0;
@@ -48,6 +55,7 @@ body.index {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /*ABOUT*/
