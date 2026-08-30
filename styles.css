@@ -1,6 +1,6 @@
 /*UNIVERSAL*/
 body{
-    margin: 510px 0 0 0;
+    margin: 0 0 0 0;
     padding: 0;
 }
 
@@ -16,8 +16,6 @@ ul{
     width: 100%;
 }
 
-
-
 ul li {
     float: left;
 }
@@ -31,7 +29,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #111111;
+    background-color: #290903;
 }
 
 ul li a.active{
@@ -51,11 +49,64 @@ ul.masterLinks{
 /* INDEX */
 
 body.index {
+    background-image: radial-gradient( #42616d, #480302);
+}
+
+div.background{
     background-image: url('Images/sdsu home.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    width: 100%;
+    height: 600px;
     background-attachment: fixed;
+}
+
+div.summary{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0 0;
+    gap: 75px;
+}
+
+div.about-us-blurb{
+    background-color: #e1e0e1;
+    width: 600px;
+    border-radius: 12px
+}
+
+div.leadership-blurb{
+    background-color: #e1e0e1;
+    width: 600px;
+    border-radius: 12px
+}
+
+div.summary p{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 10px;
+}
+div.summary h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 10px;
+}
+div.summary a{
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 10px;
+
+    background-color: #090302;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 12px;
+}
+div.summary a:hover{
+    background-color: #290903;
+}
+div.summary a:focus{
+    background-color: #42616d;
 }
 
 /*ABOUT*/
